@@ -1,0 +1,78 @@
+h2{
+    color: violet;
+}
+h3{
+    color:yellow;
+}
+.chung{
+    color:rgb(0, 255, 85)
+}
+*{
+    margin: 0px;
+    padding: 0px; ;
+}
+#css{
+    color:green
+}
+.css{
+    color: violet;
+}
+p{color: brown;
+}
+span{
+    color: rgb(19, 102, 74);
+}
+div p{
+    color: red;
+}
+.btn:hover {
+    background-color: aqua;
+}
+.btn-active:active{
+    background-color: brown;
+}
+.text-color{
+color: hsla(300, 50%, 50%, 0,5)
+}
+.text-font{
+    font-size: 50px;
+    font-weight: 900px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.text-font1 {
+    font-size:48px
+}
+.container{
+width: 100px;
+height: 100px;
+background-color: blue;
+border: 1px solid black;
+border: 5px solid;
+padding-top: 5;
+
+}
+span{
+    color: antiquewhite;
+
+}
+div{
+    color: brown;
+}
+
+
+/* - color dùng để tạo màu cho text hoặc chữ
+  - color: key or property
+ red: được gọi là giá trị (value) 
+ red: có thể để theo tên tiêng anh (red,blue, balck,white...)
+ rgb: red,green,blue)
+ rgba: (red,green,blue,anpha) anpha chày từ 0 đến 1
+  #: mã màu hexa
+  hsla:  hue saturation lightness anpha
+  đỏ  da cam vàng lục lam chàm tím
+  saturation: độ bão hòa
+  hue: 
+
+
+ */
+
+  

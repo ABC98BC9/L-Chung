@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- tABLE: Tạo bảng (ví dụ: bảng quản lý sinh viên, quản lý sản phẩm)
+    - Cách để tạo bảng
+- Nhớ các thẻ, thuộc tín trong bảng 
+- border: Đường Viền dành cho hàng và cột trong bảng-->
+<!-- 
+    Th tạo màu đậm cho text và tự động căn chính giữa các cột
+
+ -->****
+ <!-- -Align center": căn ra giữa
+             left: căn bên trái
+             right: căn phải' 
+            - bg color: set màu cho cột và hàng-->
+ 
+& <p>copy</p>
+<table border="1" cellpadding="30" cellspacing="10">
+    <caption> Danh sách học viên </caption>
+    <!-- Capion mô tả bảng -->
+    <thead>
+        <tr bgcolor="green">
+            <th> ID học sinh</th>
+            <th> Tên đăng nhập </th>
+            <th> Họ và Tên </th>
+            <th> TT Bài tập </th>
+        </tr>
+        
+        
+        <!-- phần đầu -->
+        <!-- tr: Hiển thị ở dòng trong bảng
+        td hiển thị cột trong bảng 
+    -cellpadding: Khoảng cách từ viền của ô so với text
+- cellspacing: Khoảng cách từ viền của ô so với viền của bảng
+Đây là các thuộc tính mặc định-->
+<!-- -colspan : để gộp các cột lại với nhau
+-rowspan: để gộp các hàng lại với nhau -->
+        <tbody>
+            <tr>
+                <td align="center"> 329</td>
+                <td align="center">Vinhhdq97</td>
+                <td align="center">Huỳnh Đức Quang</td>
+                <td align="center"> Làm đầy đủ </td>
+            </tr>
+            <tr>
+                <td bgcolor="yellow">330</td>
+                <td>Van anh</td>
+                <td>Nguyễn Thị Vân Anh</td>
+                <td> Làm đầy đủ </td>
+            </tr>
+            <tr>
+                <td>331</td>
+                <td>anlv</td>
+                <td>Lê Văn An</td>
+                <td> Làm đầy đủ </td>
+            </tr>
+            <!-- phần thân của bảng -->
+        
+        </tbody>
+        <!-- phần cuối của bảng -->
+        <tfoot>
+            <tr>
+                <td colspan="3"> Tổng số sinh viên nam </td>
+                <td> 2 sinh viên </td>
+            </tr>
+
+        </tfoot>
+    </thead>
+</table>
+<nav>
+    <ul>
+        <li><a href=""> Trang chủ </a> </li>
+            <li> <a href=""> Le chung </a></li>
+
+        
+    </ul>
+</nav>
+</body>
+</html>

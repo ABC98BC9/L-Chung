@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Index.css">
+    <style>
+h3{
+    color: green;
+}
+
+    </style>
+</head>
+<body>
+    <!-- 
+        CSS- Casascading style sheets: ngôn ngữ dùng để tạo phong cách dàn layout cho các element trong html
+        Phần 1: Các cách viết CSS trong html
+        3: Cách:
+        Cách 1: Inline: viết CSS trực tiếp trong element (thẻ)
+        Ưu điểm: Nếu itcode
+        Nhược điểm: Nếu code nhiều sẽ nhìn khó, nhìn, dài, rồi
+        Cách 2: internal: Viết CSS trong cặp thẻ stlye
+        Tức là mình tạo một cặp thẻ style
+        - Vị trí: trong thẻ head.
+        Ưu điểm: có cặp thẻ style riêng
+        Nhược điểm: do viết dùng file.html nên code dài, khó nhin, và không tái sử dựng được cho các file CSS khác
+        Cách 3: External tạo 1 file có đuôi.css sau đó viết code CSS trong file đó rồi link vào trang html
+        - Code clear và trang html
+        -Code clear và dễ maintain có thể tái sử dụng
+        ****
+        class và id
+        định danh cho element
+        - class : có thể dùng chung cho nhiều element
+        - id: Giống như căn cước công dân chỉ 1
+        1 element có 1 id
+        Độ ưu tiên trong CSS từ thấp đến cao
+        element==>class==>id==>!important
+        ******************
+        CSS selector (bộ chọn)
+        Các bộ chọn cơ bản: element; class; id, div; div p; div + p; div > p;
+        :hover;:before;:active;:after:;
+        /* - color dùng để tạo màu cho text hoặc chữ
+  - color: key or property
+ red: được gọi là giá trị (value) 
+ red: có thể để theo tên tiêng anh (red,blue, balck,white...)
+ rgb: red,green,blue)
+ rgba: (red,green,blue,anpha) anpha chày từ 0 đến 1
+  #: mã màu hexa
+  hsla:  hue saturation lightness anpha
+  đỏ  da cam vàng lục lam chàm tím
+  saturation: độ bão hòa
+  hue: 
+  *****************************
+  font chữa
+  1. font size: cỡ chữ
+  2. font - weight: là độ đậm của text
+  3. font family: là kiểu chữ
+
+****
+mô hình hộp trong CSS
+1. Content
+2. padding
+3. border: đọ dày của viền trong box border
+4. margin
+khi viết CSS phải reset CSS 
+việc đưa CSS về trạng thái ban đầu
+thẻ: in line không chỉnh được kích thước
+***********
+1. inline: không set được width, height
+- Nằm trên cùng 1 hàng, Độ rộng bằng độ rộng của text
+2. block thì set được width, height
+Mỗi ông sẽ chiếm trọn một dòng
+3. inline-block set được width và height nhưng hiển thị theo kiểu inline
+ */
+
+     -->
+     <p style="color: red;"> CSS Line </p>
+     <h3> CSS internal </h3>
+     <h2 class="chung tittle"> CSS External lần 1 </h2>
+    <h2 class="chung"> CSS external thứ 2 </h2>
+    <h2 id="title" class="chung"> css external lần 3</h2>
+    <p class="css" id="css" style="color: yellow;"> css độ ưu tiên</p>
+    <span>chung</span>
+    <p> lorem ipsum dolor sit amet. </p>
+    <div>
+        <p> xin chào JS t11</p>
+    </div>
+        <div>
+            <p> xin chào </p>
+        
+    </div>
+    <button class="btn"> click </button>
+    <button class="btn-active"> active</button>
+    <input type="text">
+    <p class="text-color"> CSS cho dùng text dùng color</p>
+    <p class="text-font"> CSS cho font chữ </p>
+    <div class="container"> box model</div>
+    <span></span>
+
+</body>
+</html>

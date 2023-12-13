@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            margin: 5px ;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        .box1{
+            /* margin-top:50px; */
+            position: relative;
+            bottom: 50px;
+        }
+        .container{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(216, 30, 30);
+            position: relative;
+        }
+        .absolute{
+            width:80px;
+            height:80px;
+            background-color: yellow;
+            position: absolute;
+           bottom: 0;
+            left: 0;
+        }
+   .boxa1{
+    width: 100px;
+    background-color: rgb(216, 30, 30);
+            position: relative;
+   }
+   .boxa2{
+    position: absolute;
+           top: 0;
+            right: 0;
+            width: 5px;
+
+   }
+   input{
+    width: 100px;
+   }
+   </style>
+</head>
+
+<body>
+    <!-- 
+    Position: định vị, vị trí các khối
+    1. static: trạng thái mặc định
+    2. relative: vị trí tương đối - done
+    3. absolute: vị trí tuyệt đối - done
+    4. fixed: done
+    5. sticky: done
+
+    2.*RELATIVE.
+    - Khi 1 element có thuộc tính position là relative nó sẽ lấy vị trí ban đầu làm gốc
+    - Muốn căn chỉnh khối thì dùng các thuộc tính là 
+            1. Cách trái: left
+            2. Cách phải: right
+            3. Cách trên: Top
+            4. Cách dưới: bottom
+    3.* absolute
+    - Nó sẽ ăn theo thằng cha chứa nó gần nhất có thuộc tính position
+    - Nếu không có thằng cha chứa nó thỏa mãn thì ăn theo kích thước màn hình
+    - 
+
+ -->
+    <div class="box box1"> box1
+    </div>
+    <div class="box box2"> box2
+    </div>
+    <div class="container">
+        box container
+        <div class="absolute">
+            box-absolute </div>
+
+    </div>
+<label for="chung"> user name </label> 
+ <div class="boxa1">  
+  <input type="text" id="chung">
+<div class="boxa2"> <img src="" alt="a"></div>
+</div>
+    
+</body>
+
+</html>
