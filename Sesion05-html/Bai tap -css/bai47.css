@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* header{
+    height: 100px;
+    background-color: aquamarine;
+} */
+/* footer{
+    background-color: black;
+    height: 100px;
+    align-content: center;
+} */
+nav{
+    background-color: grey;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+  
+}
+.home1{
+    display: flex;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    text-decoration: none;
+    color: white;
+}
+.container{
+    height: auto;
+    background-color: silver;
+    width: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+  
+}
+image{
+    max-width: 15px;
+    height: auto;
+    display: flex;
+    direction: row;
+    justify-content: center;
+}
+.sp1{
+font-size: 16px;
+text-align: center;
+background: white;
+}
+.gia{
+   font-size: 16px;
+   text-align: center;
+   background: white;
+}
+button{
+    background-color: rgb(126, 231, 94);
+    font-size: 12px;
+    display: flex;
+    color: white;
+
+}
+footer{
+    background-color: black;
+    border: 5px solid black;
+    color: white;
+    text-align: center;
+}
+.them{
+    text-align: center;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+input{
+    background-color: rgb(10, 231, 231);
+}
+
+
+  
