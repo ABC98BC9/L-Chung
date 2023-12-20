@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 2px;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 1850px;
+    margin: 5px;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    background-image: linear-gradient(red,orange)
+    
+   
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+nav ul li{
+    color: white;
+    font-size: 20px;
+
+}
+.nav3{
+    position: relative;
+    left: -160px;
+}
+
+.nav3-1{
+    width: 20px;
+
+}
+.nav3-2{
+position: absolute;
+transform: translateY(-22px);
+left: 0px;
+color: rgb(17, 146, 221);
+}
+nav ul li :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.danhmuc{
+background-color: grey;
+width: 200px;
+height: 500px;
+border-radius: 5px;
+list-style: none;
+border: 2px;
+padding-top: 5px;
+position: absolute;
+left: 20px;
+
+}
+.listdanhmuc{
+    list-style: none;
+}
+.danhmuc-1{
+    box-sizing: border-box;
+    background-color: rgb(25, 97, 168);
+    padding: 10 px;
+    margin-top: 5px;
+    color: black;
+
+}
+.danhmuc-2{
+    box-sizing: border-box;
+    background-color:  rgb(25, 97, 168);
+    margin-top: 5px;
+    color: black;
+
+}
+.danhmuc-3{
+    box-sizing: border-box;
+    background-color:  rgb(25, 97, 168);
+    margin-top: 5px;
+    color: black;
+
+}
+.danhmuc-4{
+    box-sizing: border-box;
+    background-color:  rgb(25, 97, 168);
+    margin-top: 5px;
+    color: black;
+}
+.danhmuc-5{
+    box-sizing: border-box;
+    background-color:  rgb(25, 97, 168);
+    margin-top: 5px;
+
+}
+.danhmuc-6{
+    box-sizing: border-box;
+    background-color: rgb(25, 97, 168);
+    margin-top: 5px;
+    color: black;
+}
+
+
+
+

@@ -27,23 +27,12 @@ nav{
     top: 5px;
     text-decoration: none;
     color: white;
-}
-.container{
-    height: auto;
-    background-color: silver;
-    width: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-   
   
 }
-image{
-    max-width: 15px;
-    height: auto;
-    display: flex;
-    direction: row;
-    justify-content: center;
+table{
+    border: 2px solid white;
+    padding: 2px;
+    background-color: silver;
 }
 .sp1{
 font-size: 16px;
@@ -64,7 +53,7 @@ button{
 }
 footer{
     background-color: black;
-    border: 5px solid black;
+    border: 5px solid rgb(250, 246, 246);
     color: white;
     text-align: center;
 }
@@ -75,8 +64,19 @@ footer{
     justify-content: center;
 }
 input{
-    background-color: rgb(10, 231, 231);
+    background-color: rgb(75, 170, 224);
 }
-
+.anh{
+    width: 30%;
+    height: auto;
+    object-position: 150px 10;
+}
+main{
+    background-color: silver;
+}
+input{
+    width: 200px;
+    height: 50px;
+}
 
   
