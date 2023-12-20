@@ -9,12 +9,13 @@
    <script>
     let a=5;
     let b="5";
-    console.log(a==b);
-    console.log(a===b);
-    console.log(a!=b);
-    console.log(a!==b);
+    console.log(a==b);//true hai giá trị bằng nhau
+    console.log(a===b);//False hai giá trị khác kiểu dữ liệu
+    console.log(a!=b);//False 
+    console.log(a!==b); //true
     a=6;
-    result: ++a + a + a++ + ++a + a;
+    let result= ++a + a + a++ + ++a + a;//39
+    console.log(result);
     console.log(0||NaN||"Rikkei Academy"||null);
     console.log(null||NaN||false||null);
     console.log(undefined||1||5||null);
@@ -26,5 +27,6 @@
     console.log("1" && undefined && 5 && NaN);
     console.log(1 && null && 12&&NaN);
    </script> 
+
 </body>
 </html>
