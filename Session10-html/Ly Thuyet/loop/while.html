@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- while: 
+    - là vòng lặp có thể không chạy lần nào hoặc chạy nhiều lần
+    - khi chạy vòng lặp nhớ cho nó một điều kiện dừng tránh vòng lặp vô tận
+    - KIỂM TRA ĐIỀU KIỆN NẾU THỎA MÃN THÌ CHẠY PHẦN THÂN
+    - NẾU ĐIỀU KIỆN SAI THÌ DỪNG CHƯƠNG TRÌNH
+    - THƯỜNG DÙNG TRONG TRƯỜNG HỢP KHÔNG BIẾT TRƯỚC SỐ LẦN LẶP
+    - 
+    
+    -->
+    <script>
+        // let a=1
+        // while (a<5) {
+        //     console.log("aaa",a)
+        //     a++;
+        //     break
+        // }
+        let pass=prompt("mời nhập pass");
+        let count=1;
+        while (pass!="123") {
+            pass=prompt("mời bạn nhập pass");
+            count++
+            
+        }
+        comsole.log("bạn đã nhập số lần",count);
+    </script>
+    
+</body>
+</html>

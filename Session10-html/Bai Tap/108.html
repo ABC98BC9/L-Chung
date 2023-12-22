@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let canNang=prompt(`Mời bạn nhập vào số cân nặng`);
+        let chieuCao=prompt(`Mời bạn nhập vào chiều cao`);
+        let bmi= chieuCao/(canNang*2);
+        if (bmi<18,5) {console.log(`Cân nặng thấp gầy`);}   
+         else if (18,5<=bmi<=24,9) {
+            console.log('bình thường'); }  
+            else if (25<=bmi){
+            console.log(`Thừa cân`);} 
+            else if (25<=bmi<=29,9) {
+            console.log(`Tiền béo phì`);}
+            else if (30<=bmi<=34,9) {
+            console.log(`Béo phì độ I`);}
+            else if (35<=bmi<=39,9) {
+            console.log(`Béo phì độ II`);}
+            else if (40<=bmi) {
+            console.log(`Béo phì độ III`);}
+
+
+    </script>
+</body>
+</html>

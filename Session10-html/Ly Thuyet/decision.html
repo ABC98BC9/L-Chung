@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Câu điều kiện
+        - if- 
+        - Đối với if (condition) thảo mãn thì phần thân if được thực thi 
+        - Thế nào là thỏa mãn: là truthy thì chạy
+        - if-else
+        - if-else-if
+        - Switch-case
+        
+
+     -->
+     <script>
+        // let a=7;
+        // if(a>3)
+        // {
+        //     // template titerial
+        //     // có thể truyền biến vào trong string
+        //     // console.log(`${a} lớn hơn 5`) ;//hiển thị nội dung nếu sử dụng"""
+        // }
+        // else{
+        //     console.log("chạy vào else!");
+        // }
+        
+
+        // if (day==2) {
+        //     console.log("thứ 2");
+            
+        // } else if(day==3){
+        //     console.log("thứ 3");
+        // } else{
+        //     console.log("không phải thứ 2,3");
+        // }
+        // key là giá trị truyền vào
+        // let day= Number(prompt("mời  bạn nhập ngày trong tuần"));
+        // switch (day) {
+        //     // case sẽ đi kiểm tra value có bằng key hay không
+        //     case 2:
+        //         console.log("ngày thứ 2");
+        //         // các case kiểm tra === kiểm tra nghiêm ngặt
+                
+        //         break;//break thoát khỏi vòng lặp keys
+        //     case 3:
+        //         console.log("ngày thứ 3");
+        //         break;
+        //     case 4:
+        //         console.log("ngày thứ 4");
+        //         break
+        
+        //     default:
+        //         console.log("ngày không thỏa mãn!");
+        //         break;
+        // }
+        // let day= Number(prompt("mời  bạn nhập ngày trong tuần"));
+        // switch (day) {
+    
+        //     case 2: console.log( "ngày đi học");
+                
+        //         break;
+        //     case 4: console.log( "ngày đi học");
+                
+        //         break;
+        //     case 6: console.log( "ngày đi học");
+                
+        //         break;
+        
+        //     default:
+        //         console.log("ngày được nghỉ");
+        //         break;
+        // }
+        let day= Number(prompt("mời  bạn nhập ngày trong tuần"));
+        switch (day) {
+            // cách thu gọn bài
+            case 2:
+            case 4:
+            case 6:
+                console.log("ngày đi học");
+                break;
+        
+            default:
+                console.log(("ngày không đi học"));
+                break;
+        }
+
+        
+     </script>
+</body>
+</html>

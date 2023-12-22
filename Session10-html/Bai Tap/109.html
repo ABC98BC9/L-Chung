@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            let diemToan=Number(prompt(`Mời bạn nhập vào điểm Toán`));
+            let diemVan=Number(prompt(`Mời bạn nhập vào điểm Van`));
+            let diemSu=Number(prompt(`Mời bạn nhập vào điểm Su`));
+            let diemDia=Number(prompt(`Mời bạn nhập vào điểm Dia`));
+            let diemLi=Number(prompt(`Mời bạn nhập vào điểm Ly`));
+            let diemHoa=Number(prompt(`Mời bạn nhập vào điểm Hoa`));
+        const DTB=Number((diemToan+diemVan+diemSu+diemDia+diemLi+diemHoa)/6);
+        console.log(DTB);
+        if (8.0<=DTB<=10) {console.log(`Xep loại giỏi`);} 
+        else if (6.5<=DTB<=7.9) {console.log(`Xep loại khá`);}
+        else if(5.0<=DTB<=6.4) {console.log(`Xep loại trung bình`);}
+        else  console.log(`xếp loại Yếu`);
+    
+        
+        </script>
+    </body>
+    </html>
+</body>
+</html>
