@@ -15,13 +15,13 @@
         **: mũ
         2. Toán tử logic
          ||(or), 
-                - Nó sẽ lấy trusthy đầu tiên nếu không có lấy cuối cùng
+                - Nó sẽ lấy truthy đầu tiên nếu không có lấy cuối cùng
                 - 1 trong các trường hợp thỏa mãn thì được
          
          && and
                 - Nó sẽ lấy falsy đầu tiên nếu không có lấy thằng cuối cùng
                 - Tất cả các trường hợp phải thỏa mãn
-                - 1 trutshy: không phải falsy
+                - 1 truthy: không phải falsy
                 - 2 falsy   : false, 0, NaN, undefined, null, "", ''.
                 - NOTE: Trong phép toán có || và && thì sẽ ưu tiên && trước rồi mới đến OR
         3. Toán tử so sánh
@@ -39,7 +39,7 @@
         // console.log(result);
         let result= 2**7;
         console.log(result);
-        // console.log( 3>2 || 1>2);
+        // console.log( 3>2 || 1>2);//true
         console.log( 1 || 2&&3);//2
         let a=5;
         let b="5";
@@ -47,12 +47,14 @@
         console.log( a===b );//false
         // flase tại vì a có kiểu dữ liệu number, b có kiểu dữ liệu string.
         console.log(a!=b);// so sánh khác giá trị: flase
-        console.log( a !==b);// so sánh khác giá trị or kiểu dữ liệu: true
+        console.log( a!==b);// so sánh khác giá trị or kiểu dữ liệu: true
         let count=1;
         // count++;// hậu tố là sau cho nên tăng sau
         // ++count;// tiền tố là trước cho nên tăng trước
         console.log(++count); // 2 tiền tố ra 2
         console.log(count++); //1 hậu tố 1 sau ra 2
+        console.log(3>2>1);//false vì 3>2 true; true ép kiểu 1; 1>1 sai false
+        console.log(1<2<3);//true vì 1<2 true; true ép kiểu về 1; 1<3 // true
      </script>
 </body>
 </html>

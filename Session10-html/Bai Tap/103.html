@@ -7,18 +7,14 @@
 </head>
 <body>
     <script>
-        let soGio=prompt(`Mời bạn nhập vào số giờ hằng ngày`);
+        let soGio=Number(prompt("Mời bạn nhập vào số giờ hằng ngày"));
         if (soGio<10) {
-            console.log(`Good morning`);
-            
-        } 
-        
-        else if (soGio<20) {console.log(`Good day`);
-            
-        } else {console.log(`good evening`);
-            
-        }{
-            
+            console.log(`Good morning`); document.write(`Good morning`); 
+        } else 
+        if (soGio<20) 
+            {console.log(`Good day`);document.write(`Good morning`);         
+        } else 
+            {console.log(`Good evening`);document.write(`Good evening`);         
         }
     </script>
 </body>

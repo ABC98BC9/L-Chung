@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Nhập giá trị từ 1-10 -->
+    <script>
+        let number= prompt("mời nhập ");
+        let check= true;
+        while(check){
+             if (number == "") {
+                console.log("bạn chưa nhập!");
+                number=prompt("mời nhập lại")
+            } else {
+                while (+number < 0 || +number > 10) {
+                    prompt("mời  nhập lại ")
+                }
+                console.log("ok!");
+                check=false;
+            }
+        }
+    </script>
+</body>
+</html>

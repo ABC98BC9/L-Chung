@@ -7,15 +7,16 @@
 </head>
 <body>
     <script>
-        let thamSo = prompt(`Mời bạn nhập vào giá trị`);
-        let giaTri = (thamSo%2);
+        let thamSo =Number((`Mời bạn nhập vào giá trị`));
+        let giaTri = Number(thamSo%2);
         switch (giaTri) {
             case 1: console.log('Số Lẻ');
-                
-                break;
-            case 2: console.log('Số chẵn');
-            default:
-                break;
+            break;
+            case 0: console.log('Số chẵn');
+            break;
+        default:
+            console.log(`so nhap khong thao man`);
+            break;
         }
         
     </script>

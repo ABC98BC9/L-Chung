@@ -21,11 +21,11 @@
             let diemDia=Number(prompt(`Mời bạn nhập vào điểm Dia`));
             let diemLi=Number(prompt(`Mời bạn nhập vào điểm Ly`));
             let diemHoa=Number(prompt(`Mời bạn nhập vào điểm Hoa`));
-        const DTB=Number((diemToan+diemVan+diemSu+diemDia+diemLi+diemHoa)/6);
+        let DTB=Number((diemToan+diemVan+diemSu+diemDia+diemLi+diemHoa)/6);
         console.log(DTB);
-        if (8.0<=DTB<=10) {console.log(`Xep loại giỏi`);} 
-        else if (6.5<=DTB<=7.9) {console.log(`Xep loại khá`);}
-        else if(5.0<=DTB<=6.4) {console.log(`Xep loại trung bình`);}
+        if (8.0<=DTB && DTB<=10) {console.log(`Xep loại giỏi`);} 
+        else if (6.5<=DTB && DTB<=7.9) {console.log(`Xep loại khá`);}
+        else if(5.0<=DTB&& DTB<=6.4) {console.log(`Xep loại trung bình`);}
         else  console.log(`xếp loại Yếu`);
     
         
